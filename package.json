@@ -1,0 +1,29 @@
+{
+  "name": "dawn-scss",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankushdogradev/Dawn-SCSS.git"
+  },
+  "keywords": [],
+  "author": "Ankush Dogra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankushdogradev/Dawn-SCSS/issues"
+  },
+  "homepage": "https://github.com/ankushdogradev/Dawn-SCSS#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.4.4",
+    "sass": "^1.44.0"
+  }
+}
