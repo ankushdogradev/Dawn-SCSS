@@ -13,7 +13,7 @@ const cssnano = require('cssnano');
 
 // Sass Task
 const scssTask = () => {
-    return src('scss/*.scss', {
+    return src('scss/**/*.scss', {
             sourcemaps: true
         })
         .pipe(sass())
