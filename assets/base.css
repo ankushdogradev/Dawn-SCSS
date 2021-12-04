@@ -1810,8 +1810,7 @@ input[type='checkbox'] {
 
 .announcement-bar__link:hover {
   color: rgb(var(--color-foreground));
-  /* background-color: rgba(var(--color-card-hover), 0.06); */
-  background-color: red;
+  background-color: rgba(var(--color-card-hover), 0.06);
 }
 
 .announcement-bar__link .icon-arrow {
