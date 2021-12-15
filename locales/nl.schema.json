@@ -700,18 +700,6 @@
         "image_2": {
           "label": "Tweede afbeelding"
         },
-        "desktop_text_box_position": {
-          "options__1": {
-            "label": "Boven"
-          },
-          "options__2": {
-            "label": "Midden"
-          },
-          "options__3": {
-            "label": "Onder"
-          },
-          "label": "Tekstpositie bureaublad"
-        },
         "color_scheme": {
           "options__1": {
             "label": "Accent 1"
@@ -729,7 +717,7 @@
             "label": "Omkeren"
           },
           "label": "Kleurschema",
-          "info": "Gebruikt voor tekstvak."
+          "info": "Zichtbaar wanneer de container wordt weergegeven."
         },
         "stack_images_on_mobile": {
           "label": "Afbeeldingen stapelen op mobiel"
@@ -739,7 +727,7 @@
           "info": "Overschrijft de instelling voor de hoogte van de bannerafbeelding als je deze controleert."
         },
         "show_text_box": {
-          "label": "Geef het tekstvak weer op het bureaublad"
+          "label": "Container op desktop weergeven"
         },
         "image_overlay_opacity": {
           "label": "Doorzichtigheid van afbeeldingsoverlay"
@@ -748,7 +736,7 @@
           "content": "Mobiele opmaak"
         },
         "show_text_below": {
-          "label": "Geef tekst weer onder afbeeldingen"
+          "label": "Container op mobiel weergeven"
         },
         "image_height": {
           "label": "Hoogte van de banner",
@@ -762,6 +750,60 @@
             "label": "Groot"
           },
           "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Linksboven"
+          },
+          "options__2": {
+            "label": "Centraal boven"
+          },
+          "options__3": {
+            "label": "Rechtsboven"
+          },
+          "options__4": {
+            "label": "Midden links"
+          },
+          "options__5": {
+            "label": "Centraal midden"
+          },
+          "options__6": {
+            "label": "Midden rechts"
+          },
+          "options__7": {
+            "label": "Linksonder"
+          },
+          "options__8": {
+            "label": "Centraal onder"
+          },
+          "options__9": {
+            "label": "Rechtsonder"
+          },
+          "label": "Positie van content op desktop"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning van content op desktop"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning van content op mobiel"
         }
       },
       "blocks": {
@@ -787,6 +829,18 @@
           "settings": {
             "text": {
               "label": "Beschrijving"
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Hoofdtekst"
+              },
+              "options__2": {
+                "label": "Subtitel"
+              },
+              "options__3": {
+                "label": "Hoofdletters"
+              },
+              "label": "Tekststijl"
             }
           }
         },
@@ -1902,20 +1956,8 @@
         "show_background_image": {
           "label": "Achtergrondafbeelding weergeven"
         },
-        "desktop_text_box_position": {
-          "options__1": {
-            "label": "Boven"
-          },
-          "options__2": {
-            "label": "Midden"
-          },
-          "options__3": {
-            "label": "Onder"
-          },
-          "label": "Tekstpositie bureaublad"
-        },
         "show_text_box": {
-          "label": "Geef het tekstvak weer op het bureaublad"
+          "label": "Container op desktop weergeven"
         },
         "image_overlay_opacity": {
           "label": "Doorzichtigheid van afbeeldingsoverlay"
@@ -1937,10 +1979,11 @@
             "label": "Omkeren"
           },
           "label": "Kleurschema",
-          "info": "Zichtbaar als het tekstvak weergegeven is"
+          "info": "Zichtbaar wanneer de container wordt weergegeven"
         },
         "show_text_below": {
-          "label": "Tekst weergeven onder afbeelding op mobiel"
+          "label": "Content op mobiel onder de afbeelding weergeven",
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image_height": {
           "label": "Hoogte van de banner",
@@ -1957,6 +2000,63 @@
             "label": "Groot"
           },
           "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "desktop_content_position": {
+          "options__4": {
+            "label": "Midden links"
+          },
+          "options__5": {
+            "label": "Centraal midden"
+          },
+          "options__6": {
+            "label": "Midden rechts"
+          },
+          "options__7": {
+            "label": "Linksonder"
+          },
+          "options__8": {
+            "label": "Centraal onder"
+          },
+          "options__9": {
+            "label": "Rechtsonder"
+          },
+          "options__1": {
+            "label": "Linksboven"
+          },
+          "options__2": {
+            "label": "Centraal boven"
+          },
+          "options__3": {
+            "label": "Rechtsboven"
+          },
+          "label": "Positie van content op desktop"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning van content op desktop"
+        },
+        "header": {
+          "content": "Opmaak op mobiel"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning van content op mobiel"
         }
       },
       "blocks": {
@@ -1973,6 +2073,15 @@
           "settings": {
             "paragraph": {
               "label": "Beschrijving"
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Hoofdtekst"
+              },
+              "options__2": {
+                "label": "Subtitel"
+              },
+              "label": "Tekststijl"
             }
           }
         },
@@ -1982,6 +2091,273 @@
       },
       "presets": {
         "name": "Banner voor aanmelding voor het ontvangen van e-mail"
+      }
+    },
+    "slideshow": {
+      "name": "Diavoorstelling",
+      "settings": {
+        "layout": {
+          "label": "Opmaak",
+          "options__1": {
+            "label": "Volledige breedte"
+          },
+          "options__2": {
+            "label": "Grid"
+          }
+        },
+        "slide_height": {
+          "label": "Diahoogte",
+          "options__1": {
+            "label": "Aanpassen aan eerste afbeelding"
+          },
+          "options__2": {
+            "label": "Klein"
+          },
+          "options__3": {
+            "label": "Gemiddeld"
+          },
+          "options__4": {
+            "label": "Groot"
+          }
+        },
+        "slider_visual": {
+          "label": "Pagineringsstijl",
+          "options__1": {
+            "label": "Teller"
+          },
+          "options__2": {
+            "label": "Stippen"
+          },
+          "options__3": {
+            "label": "Getallen"
+          }
+        },
+        "heading_size": {
+          "label": "Grootte lettertype kop",
+          "options__1": {
+            "label": "Gemiddeld"
+          },
+          "options__2": {
+            "label": "Groot"
+          }
+        },
+        "box_align": {
+          "label": "Positie van content op desktop",
+          "options__1": {
+            "label": "Linksboven"
+          },
+          "options__2": {
+            "label": "Centraal boven"
+          },
+          "options__3": {
+            "label": "Rechtsboven"
+          },
+          "options__4": {
+            "label": "Midden links"
+          },
+          "options__5": {
+            "label": "Centraal midden"
+          },
+          "options__6": {
+            "label": "Midden rechts"
+          },
+          "options__7": {
+            "label": "Linksonder"
+          },
+          "options__8": {
+            "label": "Midden onder"
+          },
+          "options__9": {
+            "label": "Rechtsonder"
+          }
+        },
+        "show_text_box": {
+          "label": "Container op desktop weergeven"
+        },
+        "text_alignment": {
+          "label": "Uitlijning van content op desktop",
+          "option_1": {
+            "label": "Links"
+          },
+          "option_2": {
+            "label": "Centraal"
+          },
+          "option_3": {
+            "label": "Rechts"
+          }
+        },
+        "image_overlay_opacity": {
+          "label": "Doorzichtigheid van afbeeldingsoverlay"
+        },
+        "auto_rotate": {
+          "label": "Dia's automatisch draaien"
+        },
+        "change_slides_speed": {
+          "label": "Wijzig dia's elke"
+        },
+        "color_scheme": {
+          "label": "Kleurschema voor vak",
+          "info": "Zichtbaar wanneer de container wordt weergegeven.",
+          "options__1": {
+            "label": "Accent 1"
+          },
+          "options__2": {
+            "label": "Accent 2"
+          },
+          "options__3": {
+            "label": "Achtergrond 1"
+          },
+          "options__4": {
+            "label": "Achtergrond 2"
+          },
+          "options__5": {
+            "label": "Omkeren"
+          }
+        },
+        "mobile": {
+          "content": "Mobiele opmaak"
+        },
+        "text_alignment_mobile": {
+          "label": "Uitlijning van content op mobiel",
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          }
+        },
+        "show_text_below": {
+          "label": "Content op mobiel onder de afbeelding weergeven"
+        },
+        "accessibility": {
+          "content": "Toegankelijkheid",
+          "label": "Beschrijving van diavoorstelling",
+          "info": "Geef een beschrijving van de diavoorstelling voor klanten die schermlezers gebruiken."
+        }
+      },
+      "blocks": {
+        "slide": {
+          "name": "Dia",
+          "settings": {
+            "image": {
+              "label": "Afbeelding"
+            },
+            "heading": {
+              "label": "Kop"
+            },
+            "subheading": {
+              "label": "Subkop"
+            },
+            "button_label": {
+              "label": "Knoplabel",
+              "info": "Laat het label leeg om de knop te verbergen."
+            },
+            "link": {
+              "label": "Knoplink",
+              "info": "Laat het label leeg om de knop te verbergen."
+            },
+            "secondary_style": {
+              "label": "Gebruik contouren als knopstijl"
+            },
+            "heading_size": {
+              "label": "Grootte kop",
+              "options__1": {
+                "label": "Klein"
+              },
+              "options__2": {
+                "label": "Gemiddeld"
+              },
+              "options__3": {
+                "label": "Groot"
+              }
+            },
+            "box_align": {
+              "label": "Positie van content op desktop",
+              "options__1": {
+                "label": "Linksboven"
+              },
+              "options__2": {
+                "label": "Centraal boven"
+              },
+              "options__3": {
+                "label": "Rechtsboven"
+              },
+              "options__4": {
+                "label": "Midden links"
+              },
+              "options__5": {
+                "label": "Centraal midden"
+              },
+              "options__6": {
+                "label": "Midden rechts"
+              },
+              "options__7": {
+                "label": "Linksonder"
+              },
+              "options__8": {
+                "label": "Midden onder"
+              },
+              "options__9": {
+                "label": "Rechtsonder"
+              }
+            },
+            "show_text_box": {
+              "label": "Container op desktop weergeven"
+            },
+            "text_alignment": {
+              "label": "Uitlijning van content op desktop",
+              "option_1": {
+                "label": "Links"
+              },
+              "option_2": {
+                "label": "Centraal"
+              },
+              "option_3": {
+                "label": "Rechts"
+              }
+            },
+            "image_overlay_opacity": {
+              "label": "Doorzichtigheid van afbeeldingsoverlay"
+            },
+            "color_scheme": {
+              "label": "Kleurschema",
+              "info": "Zichtbaar wanneer de container wordt weergegeven.",
+              "options__1": {
+                "label": "Accent 1"
+              },
+              "options__2": {
+                "label": "Accent 2"
+              },
+              "options__3": {
+                "label": "Achtergrond 1"
+              },
+              "options__4": {
+                "label": "Achtergrond 2"
+              },
+              "options__5": {
+                "label": "Omkeren"
+              }
+            },
+            "text_alignment_mobile": {
+              "label": "Uitlijning van content op mobiel",
+              "options__1": {
+                "label": "Links"
+              },
+              "options__2": {
+                "label": "Centraal"
+              },
+              "options__3": {
+                "label": "Rechts"
+              }
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Diavoorstelling"
       }
     }
   }
