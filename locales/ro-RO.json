@@ -73,14 +73,7 @@
     },
     "skip_to_product_info": "Salt la informațiile despre produs",
     "total_reviews": "total recenzii",
-    "star_reviews_info": "{{ rating_value }} din {{ rating_max }} stele",
-    "load_slide": "Încarcă diapozitivul",
-    "previous_slideshow": "Diapozitivul anterior",
-    "next_slideshow": "Diapozitivul următor",
-    "pause_slideshow": "Întrerupe prezentarea de diapozitive",
-    "play_slideshow": "Redă prezentarea de diapozitive",
-    "carousel": "Carusel",
-    "slide": "Diapozitiv"
+    "star_reviews_info": "{{ rating_value }} din {{ rating_max }} stele"
   },
   "blogs": {
     "article": {
@@ -142,10 +135,14 @@
         "refresh": "Reîmprospătați"
       },
       "media": {
-        "open_featured_media": "Deschideți în vizualizarea galerie conținutul media prezentat",
-        "open_media": "Deschideți în vizualizarea galerie conținutul media {{ index }}",
+        "open_media": "Deschide conținutul media {{ index }} într-o fereastră modală",
         "play_model": "Redați în vizualizatorul 3D",
-        "play_video": "Redați videoclipul"
+        "play_video": "Redați videoclipul",
+        "gallery_viewer": "Vizualizatorul galeriei",
+        "load_image": "Încarcă imaginea {{ index }} în vizualizarea galeriei",
+        "load_model": "Încarcă modelul 3D {{ index }} în vizualizarea galeriei",
+        "load_video": "Redă videoclipul {{ index }} în vizualizarea galeriei",
+        "image_available": "Imaginea {{ index }} este disponibilă acum în vizualizarea galeriei"
       },
       "view_full_details": "Vedeți detaliile complete",
       "include_taxes": "Taxe incluse.",

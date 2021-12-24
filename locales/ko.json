@@ -73,14 +73,7 @@
     "loading": "로드하는 중...",
     "skip_to_product_info": "제품 정보로 건너뛰기",
     "total_reviews": "총 리뷰",
-    "star_reviews_info": "별점: {{ rating_value }}/{{ rating_max }}",
-    "load_slide": "슬라이드 로드",
-    "previous_slideshow": "이전 슬라이드",
-    "next_slideshow": "다음 슬라이드",
-    "pause_slideshow": "슬라이드 쇼 멈춤",
-    "play_slideshow": "슬라이드 쇼 재생",
-    "carousel": "캐러셀",
-    "slide": "슬라이드"
+    "star_reviews_info": "별점: {{ rating_value }}/{{ rating_max }}"
   },
   "blogs": {
     "article": {
@@ -141,10 +134,14 @@
         "refresh": "새로 고침"
       },
       "media": {
-        "open_featured_media": "갤러리 보기에서 추천 미디어 열기",
-        "open_media": "갤러리 보기에서 미디어 {{ index }} 열기",
+        "open_media": "모달에서 미디어 {{ index }} 열기",
         "play_model": "3D 뷰어 재생",
-        "play_video": "동영상 재생"
+        "play_video": "동영상 재생",
+        "gallery_viewer": "갤러리 뷰어",
+        "load_image": "갤러리 뷰에서 이미지 {{ index }} 로드",
+        "load_model": "갤러리 뷰에서 3D 모델 {{ index }} 로드",
+        "load_video": "갤러리 뷰에서 동영상 {{ index }} 재생",
+        "image_available": "이제 갤러리 뷰에서 이미지 {{ index }} 사용 가능"
       },
       "view_full_details": "전체 세부 정보 보기",
       "include_taxes": "세금이 포함됩니다.",

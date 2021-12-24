@@ -73,14 +73,7 @@
     "loading": "Betöltés folyamatban…",
     "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
     "total_reviews": "összes értékelés",
-    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag",
-    "load_slide": "Dia betöltése",
-    "previous_slideshow": "Előző dia",
-    "next_slideshow": "Következő dia",
-    "pause_slideshow": "Diavetítés szüneteltetése",
-    "play_slideshow": "Diavetítés indítása",
-    "carousel": "Forgótár",
-    "slide": "Dia"
+    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag"
   },
   "blogs": {
     "article": {
@@ -141,10 +134,14 @@
         "refresh": "Frissítés"
       },
       "media": {
-        "open_featured_media": "Kiemelt médiafájl megnyitása galérianézetben",
-        "open_media": "{{ index }}. médiafájl megnyitása galérianézetben",
+        "open_media": "{{ index }}. médiafájl megnyitása a modális párbeszédpanelen",
         "play_model": "Lejátszás a 3D-megjelenítőben",
-        "play_video": "Videó lejátszása"
+        "play_video": "Videó lejátszása",
+        "gallery_viewer": "Galériamegjelenítő",
+        "load_image": "{{ index }}. kép betöltése galérianézetben",
+        "load_model": "{{ index }}. térhatású modell betöltése galérianézetben",
+        "load_video": "{{ index }}. videó lejátszása galérianézetben",
+        "image_available": "{{ index }}. kép betöltve galérianézetben"
       },
       "view_full_details": "Minden részlet megtekintése",
       "include_taxes": "Tartalmazza az adót.",

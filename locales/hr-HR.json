@@ -73,14 +73,7 @@
     },
     "skip_to_product_info": "Preskoči do informacija o proizvodu",
     "total_reviews": "ukupan broj pregleda",
-    "star_reviews_info": "{{ rating_value }} od sljedećeg broja zvjezdica: {{ rating_max }}",
-    "load_slide": "Učitaj slajd",
-    "previous_slideshow": "Prethodni slajd",
-    "next_slideshow": "Sljedeći slajd",
-    "pause_slideshow": "Pauziraj prezentaciju",
-    "play_slideshow": "Reproduciraj prezentaciju",
-    "carousel": "Vrtuljak",
-    "slide": "Slajd"
+    "star_reviews_info": "{{ rating_value }} od sljedećeg broja zvjezdica: {{ rating_max }}"
   },
   "blogs": {
     "article": {
@@ -142,10 +135,14 @@
         "refresh": "Osvježi"
       },
       "media": {
-        "open_featured_media": "Otvori istaknuti medij u prikazu galerije",
-        "open_media": "Otvori medij {{ index }} u prikazu galerije",
+        "open_media": "Otvori medij {{ index }} u dijaloškom okviru",
         "play_model": "Pokreni 3D preglednik",
-        "play_video": "Reproduciraj videozapis"
+        "play_video": "Reproduciraj videozapis",
+        "gallery_viewer": "Preglednik galerije",
+        "load_image": "Učitaj sliku {{ index }} za prikaz u galeriji",
+        "load_model": "Učitaj 3D model {{ index }} za prikaz u galeriji",
+        "load_video": "Reproduciraj videozapis {{ index }} u galerijskom prikazu",
+        "image_available": "Slika {{ index }} sada je dostupna za prikaz u galeriji"
       },
       "view_full_details": "Prikaži sve pojedinosti",
       "include_taxes": "Porez je uključen.",

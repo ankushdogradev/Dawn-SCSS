@@ -650,7 +650,7 @@
           "label": "Anpassad logotypsbredd"
         },
         "logo_position": {
-          "label": "Logotyp-position på stora skärmar",
+          "label": "Desktoplogotypens position",
           "options__1": {
             "label": "Mitten till vänster"
           },
@@ -659,7 +659,8 @@
           },
           "options__3": {
             "label": "Längst upp i mitten"
-          }
+          },
+          "info": "Positionen optimeras automatiskt för mobilen."
         },
         "menu": {
           "label": "Meny"
@@ -819,7 +820,7 @@
               "options__2": {
                 "label": "Stor"
               },
-              "label": "Rubrikens typsnittsstorlek"
+              "label": "Rubrikstorlek"
             }
           },
           "name": "Rubrik"
@@ -890,7 +891,8 @@
           "options__3": {
             "label": "Stor"
           },
-          "label": "Bildförhållande"
+          "label": "Bildhöjd",
+          "info": "Avgör sektionshöjd."
         },
         "color_scheme": {
           "options__1": {
@@ -915,10 +917,68 @@
             "label": "Bild först"
           },
           "options__2": {
-            "label": "Text först"
+            "label": "Andra bild"
           },
-          "label": "Layout för dator",
+          "label": "Placering av datorbild",
           "info": "Bild först är standard-layout för mobil."
+        },
+        "desktop_image_width": {
+          "options__1": {
+            "label": "Liten"
+          },
+          "options__2": {
+            "label": "Medel"
+          },
+          "options__3": {
+            "label": "Stor"
+          },
+          "label": "Bildbredd för dator",
+          "info": "Bilden optimeras automatiskt för mobilen."
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__3": {
+            "label": "Höger"
+          },
+          "label": "Justering av innehåll på skrivbord",
+          "options__2": {
+            "label": "Centrera"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Högst upp"
+          },
+          "options__2": {
+            "label": "Mitten"
+          },
+          "options__3": {
+            "label": "Längst ner"
+          },
+          "label": "Innehållsposition på dator"
+        },
+        "content_layout": {
+          "options__1": {
+            "label": "Ingen överlappning"
+          },
+          "options__2": {
+            "label": "Överlappande"
+          },
+          "label": "Innehållslayout"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__3": {
+            "label": "Höger"
+          },
+          "label": "Linjering av innehåll på mobil",
+          "options__2": {
+            "label": "Centrera"
+          }
         }
       },
       "blocks": {
@@ -926,6 +986,18 @@
           "settings": {
             "heading": {
               "label": "Rubrik"
+            },
+            "heading_size": {
+              "options__1": {
+                "label": "Liten"
+              },
+              "options__2": {
+                "label": "Medel"
+              },
+              "options__3": {
+                "label": "Stor"
+              },
+              "label": "Rubrikstorlek"
             }
           },
           "name": "Rubrik"
@@ -933,7 +1005,19 @@
         "text": {
           "settings": {
             "text": {
-              "label": "Beskrivning"
+              "label": "Innehåll"
+            },
+            "text_style": {
+              "label": "Textstil",
+              "options__1": {
+                "label": "Brödtext"
+              },
+              "options__2": {
+                "label": "Underrubrik"
+              },
+              "options__3": {
+                "label": "Stora bokstäver"
+              }
             }
           },
           "name": "Text"
@@ -949,6 +1033,35 @@
             }
           },
           "name": "Knapp"
+        },
+        "caption": {
+          "name": "Rubrik",
+          "settings": {
+            "text": {
+              "label": "Text"
+            },
+            "text_style": {
+              "label": "Textstil",
+              "options__1": {
+                "label": "Underrubrik"
+              },
+              "options__2": {
+                "label": "Stora bokstäver"
+              }
+            },
+            "caption_size": {
+              "label": "Textstorlek",
+              "options__1": {
+                "label": "Liten"
+              },
+              "options__2": {
+                "label": "Medel"
+              },
+              "options__3": {
+                "label": "Stor"
+              }
+            }
+          }
         }
       },
       "presets": {
@@ -1028,13 +1141,14 @@
           "label": "Visa författare"
         },
         "layout": {
-          "label": "Layout på stora skärmar",
+          "label": "Desktoplayout",
           "options__1": {
             "label": "Rutnät"
           },
           "options__2": {
             "label": "Kollage"
-          }
+          },
+          "info": "Inläggen staplas på mobilen."
         },
         "image_height": {
           "label": "Bildhöjd på utvald bild",
@@ -1141,7 +1255,7 @@
           "label": "Visa bildgräns"
         },
         "collapse_on_larger_devices": {
-          "label": "Dölj på större skärmar"
+          "label": "Dölj på desktop"
         },
         "show_rating": {
           "label": "Visa produktbetyg",
@@ -1471,10 +1585,44 @@
           "label": "Aktivera video-loopning"
         },
         "enable_sticky_info": {
-          "label": "Aktivera fast produktinformation på stora skärmar"
+          "label": "Aktivera fast innehåll på desktop"
         },
         "hide_variants": {
           "label": "Dölj andra varianters media efter att du valt en variant"
+        },
+        "gallery_layout": {
+          "label": "Desktoplayout",
+          "options__1": {
+            "label": "Staplade"
+          },
+          "options__2": {
+            "label": "Förhandsbilder"
+          },
+          "options__3": {
+            "label": "Miniatyrbildskarusell"
+          }
+        },
+        "media_size": {
+          "label": "Mediastorlek på desktop",
+          "options__1": {
+            "label": "Liten"
+          },
+          "options__2": {
+            "label": "Medel"
+          },
+          "options__3": {
+            "label": "Stor"
+          },
+          "info": "Media optimeras automatiskt för mobilen."
+        },
+        "mobile_thumbnails": {
+          "label": "Mobil layout",
+          "options__1": {
+            "label": "Visa miniatyrbild"
+          },
+          "options__2": {
+            "label": "Dölj miniatyrbild"
+          }
         }
       }
     },
@@ -1757,7 +1905,7 @@
               "options__2": {
                 "label": "Medel"
               },
-              "label": "Rubrikens typsnittsstorlek",
+              "label": "Rubrikstorlek",
               "options__3": {
                 "label": "Stor"
               }
@@ -2302,7 +2450,8 @@
               },
               "options__9": {
                 "label": "Nere till höger"
-              }
+              },
+              "info": "Positionen optimeras automatiskt för mobilen."
             },
             "show_text_box": {
               "label": "Visa ruta på skrivbord"
